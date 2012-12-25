@@ -1,0 +1,12 @@
+{
+    "repository": "git@github.com:account/repo.git",
+
+    "GITHUB_EMAIL": "",
+
+    "developers_ssh_pubkey": [],
+    "SSH_KEY_PASSPHRASE": "",
+
+    "SECRET_KEY": "",
+
+    "from_email": "admin@grakon.org"
+}

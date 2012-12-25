@@ -1,0 +1,5 @@
+description "uwsgi for %(DOMAIN)s"
+start on runlevel [2345]
+stop on runlevel [06]
+
+exec uwsgi --ini %(code_path)sdeployment/uwsgi.ini

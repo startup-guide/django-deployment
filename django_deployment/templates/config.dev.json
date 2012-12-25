@@ -1,0 +1,24 @@
+{
+    "DEBUG": false,
+
+    "host": "root@ip_address",
+    "password": "",
+
+    "username": "",
+
+    "database.ENGINE": "django.db.backends.postgresql_psycopg2",
+    "database.NAME": "",
+    "database.USER": "",
+    "database.PASSWORD": "",
+    "database.HOST": "localhost",
+    "database.PORT": "",
+
+    "cache.BACKEND": "django.core.cache.backends.memcached.PyLibMCCache",
+    "cache.LOCATION": "127.0.0.1:11211",
+    "cache.TIMEOUT": 60,
+    "cache.KEY_PREFIX": "",
+
+    "path": "sites/project_name",
+
+    "DOMAIN": "127.0.0.1:8000"
+}
