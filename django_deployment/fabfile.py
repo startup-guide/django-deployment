@@ -90,7 +90,6 @@ def deploy_static_files():
 
 @task
 def deploy():
-    """
     cmd('mkdir -p %s %s %s %s' % (
             env.code_path, env.env_path, env.STATIC_ROOT, os.path.join(env.logs_path)))
 
@@ -130,7 +129,6 @@ def deploy():
 
     deploy_static_files()
 
-    """
     restart()
 
 def restart():
